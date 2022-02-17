@@ -1,0 +1,98 @@
+*{margin:none; padding:0; font-family:Arial, Helvetica, serif}
+ul {
+   
+}
+.ul{
+    float:left;
+}
+.google-icon{
+    float:right;
+}
+
+#apps-icon{
+
+    width: 30px;
+    height:30px;
+    margin: 10px 10px;
+
+}
+.google-icon:hover{
+
+    background-color: #b7b7a4;
+    border-radius: 50%;
+    padding:none;
+    cursor:pointer;
+    
+
+}
+.head{
+    float:right;
+}
+ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+ul li a{
+    text-decoration:none;
+    color:black;
+    margin-right:20px     ;
+}
+ul li a:hover{
+text-decoration: underline;
+}
+.logo img {
+    width: 250px;
+    height: 250px;
+    margin: 0 36% ;
+}
+.search{
+    margin: 0 30%;
+    position: relative;
+}
+.search input{
+    color: #3b3b3b;
+   position: relative;
+    width: 67%;
+    height: 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 35px ;
+    box-shadow: 1px 1px 20px #b7b7a4 ;
+    outline:none;
+    padding: 10px 50px;
+}
+.search-icon img{
+    position: absolute;
+    z-index: 1; 
+    top:10px;
+    left: 3%;
+    width:25px;
+    height: 25px;
+    
+}
+.voice-icon img{
+
+    position: absolute;
+    top:10px;
+    right:20%;
+    z-index: 2;
+    width:25px;
+    height: 25px;
+    
+}
+.voice-icon img:hover{
+    cursor:pointer;
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+ 
+
+    
+}
+.footer p {
+    margin-right:30px ;
+    float:right;
+    color: #560bad;
+}
